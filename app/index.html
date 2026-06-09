@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Warning Screen Generator | Medium Effort Media</title>
-    <script src="/src.js"></script>
+    <script src="/src.js" defer></script>
     <link rel="stylesheet" href="/stylesheet.css">
 </head>
 <body>
 <div style="width: 90%; margin-left:5%;">
     <h1>medium effort media warning screen generator</h1>
+</div>
+<div style="width: 28%; margin-left:5%;float:left; margin-top:5%;">
+    <h2>options</h2>
+    <hr>
+    <input class="inputText" type="text" name="title" placeholder="Video Title" id="videoTitleInput" maxlength="100"/>
+    <h3 style="margin-top:5%">age rating</h3>
+    <form id="ageRating">
+        <input type="radio" name="ageRating" value="12" id="12" />
+        <label for="12">12</label>
+        <input type="radio" name="ageRating" id="15" value="15" />
+        <label for="15">15</label>
+        <input type="radio" name="ageRating" id="18" value="18" />
+        <label for="18">18</label>
+    </form>
+</div>
+<div style="width: 60%; margin-right:5%; float:right;margin-top:5%;" class="div16By9Fixed">
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align:center"><span id="videoTitle"></span></h1>
+    <br>
+    <h2 style="text-align:center">Recommended age rating: <span id="ageRatingOut"></span></h2>
+    <br>
+    <hr style="width:80%;margin-left:10%;border-color: white;">
+    <br>
 </div>
 </body>
 </html>
