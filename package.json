@@ -1,0 +1,29 @@
+{
+  "name": "mediumeffortmedia-warning-template",
+  "version": "1.0.0",
+  "description": "An online tool for making warning screens for medium effort media.",
+  "homepage": "https://github.com/pobertraterson/mediumeffortwarningtemplate#readme",
+  "bugs": {
+    "url": "https://github.com/pobertraterson/mediumeffortwarningtemplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pobertraterson/mediumeffortwarningtemplate.git"
+  },
+  "license": "ISC",
+  "author": "pobertraterson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "html-to-image": "^1.11.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
